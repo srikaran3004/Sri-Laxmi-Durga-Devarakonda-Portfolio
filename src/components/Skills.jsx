@@ -80,7 +80,7 @@ const Skills = () => {
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-center text-5xl lg:text-7xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent font-sans tracking-tight my-20"
+        className="text-center text-4xl lg:text-6xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent font-sans tracking-tight my-20"
       >
         Skills
       </motion.h2>
