@@ -3,9 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `Crafting engaging, learner-centered experiences is at the heart of what I do. I design innovative instructional materials and e-learning solutions that make complex concepts accessible and memorable. By leveraging cutting-edge design principles, I ensure content is tailored to meet both learner needs and organizational goals.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Dynamic and results-driven Senior Instructional Designer with a passion for transforming complex concepts into engaging, learner-centered experiences. With a proven track record in developing innovative instructional materials and interactive e-learning solutions, I leverage cutting edge design principles and technology to enhance knowledge retention and drive learner engagement. Adept at collaborating with subject matter experts and stakeholders, I ensure that all content is not only aligned with organizational goals but also tailored to meet diverse learner needs. Committed to continuous improvement, I thrive in fast-paced environments where creativity and strategic thinking are essential to deliver high-quality educational programs that empower learners and support professional growth`;
 
 export const EXPERIENCES = [
   {
