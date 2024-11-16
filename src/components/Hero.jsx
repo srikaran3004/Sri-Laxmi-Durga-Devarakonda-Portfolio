@@ -1,5 +1,4 @@
 import profilePic from '../assets/sriLaxmiProfile.jpg';
-import { HERO_CONTENT } from '../constants';
 import { motion } from 'framer-motion';
 
 const containerVariants = {
@@ -22,7 +21,7 @@ const Hero = () => {
                             src={profilePic}
                             alt="Sri Laxmi Durga Devarakonda"
                             className="border border-stone-900 rounded-3xl"
-                            style={{ width: '350px', height: '550px' }}
+                            style={{ width: '400px', height: '550px' }}
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.5 }}
@@ -65,12 +64,7 @@ const Hero = () => {
                         >
                             Senior Instructional Designer"
                         </motion.span>
-                        <motion.p
-                            variants={childVariants}
-                            className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
-                        >
-                            {HERO_CONTENT}
-                        </motion.p>
+                        <br></br>
                         <motion.a
                             variants={childVariants}
                             href="/resume.pdf"
