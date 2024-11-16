@@ -8,33 +8,91 @@ export const ABOUT_TEXT = `Dynamic and results-driven Senior Instructional Desig
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Senior Instructional Designer",
+    company: "Mind Map Consulting",
+    location: "Hyderabad, India",
+    responsibilities: [
+      "Managed end-to-end ILT, VILT, and blended learning projects for clients like Accenture and Deloitte, ensuring timely delivery and client alignment.",
+      "Created interactive e-learning content using Articulate RISE and Storyline 360, focusing on corporate topics like HR, finance, and technical operations.",
+      "Developed engaging videos and scenarios with Vyond, ensuring high-quality training solutions tailored to client needs.",
+      "Performed quality assurance on courses, ensuring accuracy and adherence to industry standards and client-specific requirements."
+    ],
+    technologies: ["Articulate Storyline 360", "Articulate RISE", "Vyond"],
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    role: "Instructional Designer",
+    company: "Medvarsity Online Ltd",
+    location: "Hyderabad, India",
+    responsibilities: [
+      "Designed and developed interactive medical e-learning modules using PowerPoint and Articulate Storyline 360, ensuring engagement and alignment with learning objectives.",
+      "Led major projects, overseeing end-to-end course development from concept to final delivery.",
+      "Managed LMS operations, including a successful platform migration to Exper, streamlining user experience.",
+      "Received multiple 'Best Employee Awards' for excellence in instructional design and innovative e-learning development."
+    ],
+    technologies: ["Articulate Storyline 360", "PowerPoint", "LMS"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Instructional Designer",
+    company: "Commlab India LLP",
+    location: "Secunderabad, India",
+    responsibilities: [
+      "Developed detailed storyboards and e-learning content, ensuring alignment with learning objectives and clear presentation of complex concepts.",
+      "Coordinated cross-functional teams to ensure timely content delivery and alignment with project goals.",
+      "Reviewed content for accuracy, clarity, and instructional effectiveness, providing feedback for continuous improvement.",
+      "Managed multiple projects simultaneously, adhering to deadlines and ensuring quality content delivery."
+    ],
+    technologies: ["Articulate Storyline", "Adobe Captivate", "LMS"],
+  }
+];
+
+
+export const OTHER_EXPERIENCES = [
+  {
+    year: "2020 - 2021",
+    role: "Facilitator in Operations Internship",
+    company: "Eingenium Technologies",
+    location: "Rajahmundry, India",
+    responsibilities: [
+      "Coordinated team tasks, ensuring timely project delivery.",
+      "Streamlined operations, improving team productivity.",
+      "Collaborated across teams to ensure smooth workflow.",
+      "Resolved issues, maintaining project timelines.",
+      "Suggested process improvements for efficiency."
+    ],
+  },
+  {
+    year: "2021",
+    role: "Freelancing Content Writer",
+    company: "Self-employed",
+    location: "Remote",
+    responsibilities: [
+      "Researched and wrote academic articles.",
+      "Developed video scripts and content for clients.",
+      "Created tailored proposals to enhance project appeal.",
+      "Implemented content strategies aligned with objectives.",
+      "Collaborated with teams to ensure cohesive content.",
+      "Edited content for clarity and SEO optimization."
+    ],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    role: "Event Coordinator",
+    company: "Ifocus Mission",
+    location: "Hyderabad, India",
+    responsibilities: [
+      "Led teams to achieve event goals.",
+      "Coordinated logistics, budgeting, and vendor relations for events.",
+      "Created content to enhance brand messaging.",
+      "Organized workshops and managed budgets.",
+      "Built relationships with stakeholders and sponsors."
+    ],
+  }
 ];
+
+
+
 
 export const PROJECTS = [
   {
