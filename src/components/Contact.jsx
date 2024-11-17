@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { IoArrowRedo } from "react-icons/io5";
+import { FaLocationArrow } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -182,7 +182,7 @@ const Contact = () => {
           <motion.button
             type="submit"
             disabled={loading}
-            className="w-full flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded-md transition-all disabled:opacity-50"
+            className="w-full flex items-center justify-center px-4 py-2 bg-white text-black text-lg rounded-md transition-all disabled:opacity-50"
             variants={formFieldVariants}
             custom={3}
             initial="hidden"
@@ -192,7 +192,7 @@ const Contact = () => {
             whileTap={{ scale: 0.95 }}
           >
             {loading ? "Sending..." : "Submit"}
-            <IoArrowRedo className="ml-2" />
+            <FaLocationArrow className="ml-2" />
           </motion.button>
         </motion.form>
       </motion.div>
