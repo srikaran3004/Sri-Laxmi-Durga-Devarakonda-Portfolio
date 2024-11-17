@@ -20,6 +20,26 @@ const Publications = () => {
         },
     ];
 
+    // Anthologies list
+    const anthologies = [
+        {
+            title: "Gratitude to God",
+            link: "https://www.linkedin.com/in/devarakonda-sri-laxmi-durga/overlay/1635477703092/single-media-viewer?type=LINK&profileId=ACoAADOJ_EgBQtWQfBt2ZjPOU3Wm3mKD2GekFSc&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFUYg4JD%2FQnuxKRpfPAkzRg%3D%3D",
+        },
+        {
+            title: "The Age Of Ash: Life of Teens",
+            link: "https://www.linkedin.com/in/devarakonda-sri-laxmi-durga/overlay/1635477700109/single-media-viewer?type=LINK&profileId=ACoAADOJ_EgBQtWQfBt2ZjPOU3Wm3mKD2GekFSc&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFUYg4JD%2FQnuxKRpfPAkzRg%3D%3D",
+        },
+        {
+            title: "Indian Emotions 2: Words Of Indian",
+            link: "https://www.linkedin.com/in/devarakonda-sri-laxmi-durga/overlay/1635477703057/single-media-viewer?type=LINK&profileId=ACoAADOJ_EgBQtWQfBt2ZjPOU3Wm3mKD2GekFSc&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFUYg4JD%2FQnuxKRpfPAkzRg%3D%3D",
+        },
+        {
+            title: "A Book Full Of Heart",
+            link: "https://www.linkedin.com/in/devarakonda-sri-laxmi-durga/overlay/1635477702087/single-media-viewer?type=LINK&profileId=ACoAADOJ_EgBQtWQfBt2ZjPOU3Wm3mKD2GekFSc&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFUYg4JD%2FQnuxKRpfPAkzRg%3D%3D",
+        },
+    ];
+
     // Animation for list items
     const listItemVariants = {
         hidden: { opacity: 0, x: -20 },
@@ -49,7 +69,7 @@ const Publications = () => {
                 transition={{ duration: 1, ease: "easeOut" }}
                 className="mt-10"
             >
-                <h3 className="text-2xl lg:text-3xl text-stone-300 font-semibold mb-4 ">
+                <h3 className="text-2xl lg:text-3xl text-stone-300 font-semibold mb-6">
                     Journals
                 </h3>
                 <motion.ul>
@@ -62,11 +82,8 @@ const Publications = () => {
                             whileInView="visible"
                             className="list-disc pl-5 text-stone-300 text-lg space-y-2 mb-6"
                         >
-                            {/* Journal Title */}
                             <span className="font-semibold">{journal.title}</span>
-                            {/* Journal Description */}
                             <p className="mt-2">{journal.description}</p>
-                            {/* Icon with Link */}
                             <a
                                 href={journal.link}
                                 target="_blank"
@@ -75,6 +92,39 @@ const Publications = () => {
                             >
                                 <span className="text-xs group-hover:underline">Link: </span>
                                 <CiLink className="text-lg group-hover:scale-110 transition-transform mr-1 ml-1" />
+                            </a>
+                        </motion.li>
+                    ))}
+                </motion.ul>
+            </motion.div>
+
+            {/* Anthology Section */}
+            <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                className="mt-10"
+            >
+                <h3 className="text-2xl lg:text-3xl text-stone-300 font-semibold mb-6">
+                    Anthologies
+                </h3>
+                <motion.ul className="list-disc pl-5 text-lg space-y-2 mb-6">
+                    {anthologies.map((anthology, index) => (
+                        <motion.li
+                            key={index}
+                            variants={listItemVariants}
+                            custom={index}
+                            initial="hidden"
+                            whileInView="visible"
+                            className="text-stone-300 text-lg mb-4 cursor-pointer hover:underline pl-5" // Added pl-5 here for padding
+                        >
+                            <a
+                                href={anthology.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-stone-100 transition-colors duration-200"
+                            >
+                                {anthology.title}
                             </a>
                         </motion.li>
                     ))}

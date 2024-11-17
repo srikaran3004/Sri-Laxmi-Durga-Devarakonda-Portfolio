@@ -1,8 +1,3 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
-
 export const ABOUT_TEXT = `Dynamic and results-driven Senior Instructional Designer with a passion for transforming complex concepts into engaging, learner-centered experiences. With a proven track record in developing innovative instructional materials and interactive e-learning solutions, I leverage cutting edge design principles and technology to enhance knowledge retention and drive learner engagement. Adept at collaborating with subject matter experts and stakeholders, I ensure that all content is not only aligned with organizational goals but also tailored to meet diverse learner needs. Committed to continuous improvement, I thrive in fast-paced environments where creativity and strategic thinking are essential to deliver high-quality educational programs that empower learners and support professional growth`;
 
 export const EXPERIENCES = [
