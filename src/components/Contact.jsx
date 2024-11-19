@@ -27,16 +27,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_kk27i7r", 
+        "template_3zmva2n", 
         {
           from_name: form.name,
           to_name: "Sri Laxmi Durga Devarakonda",
           from_email: form.email,
-          to_email: "srilaxmidurga4110@gmail.com",
+          to_email: "srikaran2230@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "TcZ3A-rBPsl626-j9"
       )
       .then(
         () => {
